@@ -130,3 +130,5 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+DATABASE_ROUTERS = ['routers.db_routers.AuthRouter','routers.db_routers.Blue','routers.db_routers.Aqua']
